@@ -1,0 +1,72 @@
+<html>
+
+<head>
+    <title>This is Saksh</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles/index.css">
+
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="navbar-start" >
+            <div class="dropdown">
+                <label tabindex="0" class="btn btn-ghost lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h8m-8 6h16" />
+                    </svg>
+                </label>
+                <ul tabindex="0"
+                    class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                    <li><a>About</a></li>
+                    <li><a>Contact</a></li>
+                    <li><a>Portfolio</a></li>
+                </ul>
+            </div>
+            <a href="#" id="nav-start" class="normal-case text-xl">SAKSHAM KUMAR</a>
+        </div>
+        <div class="navbar-end hidden lg:flex" id="nav-end">
+            <ul class="menu menu-horizontal px-1">
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Portfolio</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="card-side lg:card w-96 bg-base-100 shadow-xl" id="info-card">
+        <figure class="px-10 pt-10">
+            <img src="styles/images/profilepic.jpg" alt="ProfilePic" class="rounded-xl" />
+        </figure>
+        <div class="card-body items-center text-center">
+            <h2 class="card-title">Saksham Kumar</h2>
+            <p>ML Engineer</p>
+            <div class="social-icons join join-horixontal lg:join-horizontal">
+                <a href="https://www.facebook.com/PolymathSaksh">
+                    <!--Add SVG-->
+                    <img src="styles/svg/facebook.svg" alt="Facebook" class="w-6 h-6" />
+                </a>
+                <a href="https://www.linkedin.com/in/sakshamkr1/">
+                    <!--Add SVG-->
+                    <img src="styles/svg/linkedin.svg" alt="LinkedIn" class="w-6 h-6" />
+                </a>
+                <a href="https://www.instagram.com/Polymath_Saksh/">
+                    <!--Add SVG-->
+                    <img src="styles/svg/instagram.svg" alt="Instagram" class="w-6 h-6" />
+                </a>
+                <a href="https://github.com/Polymath-Saksh">
+                    <!--Add SVG-->
+                    <img src="styles/svg/github.svg" alt="Github" class="w-6 h-6" />
+                </a>
+            </div>
+            <div class="card-actions">
+                <button class="btn btn-primary bg-secondary">Download CV </button>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
