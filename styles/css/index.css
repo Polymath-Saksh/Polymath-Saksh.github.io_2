@@ -6,3 +6,9 @@
 .social-icons>a {
     padding: 1vw;
 }
+
+@media screen and (max-width: 600px) {
+    .social-icons{
+        margin-left:37.5vw;
+    }
+}

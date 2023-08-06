@@ -2,11 +2,6 @@
     margin-left: 5vw;
 }
 
-.fixed {
-    position: fixed;
-    z-index: 50;
-}
-
 .navbar{
     color: #726eff;
 }
@@ -15,20 +10,22 @@
     margin-right: 5vw;
 }
 
-body {
-    background-image: url('/styles/images/back.svg');
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 100vh;
-    width: 100vw;
-}
 
 body{
     height:100vh;
     width:100vw;
 }
-/**Align all elements to center */
 
+#myVideo{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100vw;
+    height:100vh;
+    z-index:-1;
+    object-fit:cover;
+    opacity:0.8;
+}
 
 .color-green-main{
     color:#5AFFE7;
@@ -41,7 +38,6 @@ body{
 .bgcolor-green{
     background-color:#5AFFE7;
     color: #212b38;
-    /** Transition color with animation in 2s to #37565B */
 }
 .bgcolor-grey{
     background-color:#37565B;
