@@ -1,13 +1,14 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
     <title>This is Saksh | About</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="styles\images\logo.png">
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.5.1/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <link rel="stylesheet" href="styles/css/main.css">
     <link rel="stylesheet" href="styles/css/about.css">
-
 </head>
 
 <body>
@@ -45,6 +46,18 @@
             </ul>
         </div>
     </div>
+    <!--Add a video below navbar as hero element spanning all area below navbar,-->
+    <div class="hero min-h-screen relative overflow-hidden ">
+        <div class="absolute inset-0">
+            <video class="hero-vid w-full h-full object-cover" autoplay muted>
+                <source src="/styles/videos/ProfileVid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </div>
+    <!--Add three elements one two three-->
+
+    <script src="scripts/about.js"></script>
 </body>
 
 </html>

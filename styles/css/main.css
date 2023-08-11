@@ -4,7 +4,18 @@
 
 .navbar{
     color: #726eff;
+    position:fixed;
+    z-index: 50;
 }
+@media screen and (min-width: 768px) {
+    .navbar {
+      background-color: transparent;
+    }
+  
+    .navbar.scrolled {
+      background-color: black;
+    }
+  }
 
 #nav-end {
     margin-right: 5vw;
